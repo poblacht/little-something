@@ -5,12 +5,12 @@ Player.__index = Player
 function Player.new(plr)
     local self = setmetatable({}, Player)
 
-    self:_init(plr)
+    self:_setup(plr)
 
     return self
 end
 
-function Player:_init(plr)
+function Player:_setup(plr)
     local leaderstats = Instance.new("Folder", plr) -- Remember to make the player passed through the instance!
     leaderstats.Name = "leaderstats"
 
