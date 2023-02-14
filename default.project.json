@@ -4,7 +4,7 @@
     "$className": "DataModel",
 
     "ReplicatedStorage": {
-      "Common": {
+      "Shared": {
         "$path": "src/shared"
       }
     },
@@ -66,7 +66,7 @@
         "Brightness": 2,
         "GlobalShadows": true,
         "Outlines": false,
-        "Technology": "Voxel"
+        "Technology": "Future"
       }
     },
     "SoundService": {
